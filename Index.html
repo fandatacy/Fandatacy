@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fantasy Team Generator</title>
+    <style>
+        /* Mobile-friendly CSS */
+        body { font-family: Arial; padding: 10px; }
+        input { width: 90%; padding: 8px; margin: 5px; }
+        table { width: 100%; border-collapse: collapse; }
+        td, th { border: 1px solid #ddd; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h2>🏏 Fantasy Team Generator</h2>
+    <input type="url" id="matchUrl" 
+           placeholder="Paste Cricinfo Match URL">
+    <button onclick="generateTeams()">Create 20 Teams</button>
+    <div id="results"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
